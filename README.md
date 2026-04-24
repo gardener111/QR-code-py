@@ -30,3 +30,30 @@ The first section is of course, what i want to give to the users, and the second
 While doing this project and by learning git, and markdown files, i will split the full documentation into separate chunks with screenshots, references and sources.
 This is yet to come as i have just now started to create this repo.
 **thats just a small note down for me personally**
+
+# Tutorial
+
+To run this script on your local machine after cloning this repo, you need to create and activate a python3 virtual environment (venv).
+
+
+**Move to the projects directory and follow next steps!**
+
+Make sure you are in the projects directory and run these commands:
+
+```bash
+python3 -m venv .venv
+```
+**creates a virtual environment**
+
+
+```bash
+source .venv/bin/activate
+```
+**activates the virtual environment**
+
+To **deactivate** the virtual environment run this command:
+
+```bash
+deactivate
+```
+
