@@ -3,6 +3,10 @@
 import getpass
 import qrcode
 from PIL import Image
+import platform
+
+# get current operating system
+os = platform.system()
 
 # get current users username
 username = getpass.getuser()
@@ -10,7 +14,8 @@ username = getpass.getuser()
 # use current users username as a string > " + username + "
 
 print ("\nHello, " + username + " and welcome to the QR Code Generator!\n")
-print ("You can input your desired URL (website link) to create a QR Code out of it. \nThe script will save it as a image file (.png or .jpg) in a folder.")
+print (f"You are running this script on {os}.\n")
+print ("Input your desired URL (website link) to create a QR Code out of it. \nThe script will save it as a image file (.png or .jpg) in a the current working directory.\n")
 
 # string variable for the URL
 url = input("Paste or Enter your URL: ")
