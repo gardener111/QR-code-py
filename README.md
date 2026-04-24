@@ -1,6 +1,6 @@
 # QR-code-py - Open Source QR Code Generator
 
-_**This is the main version that serves its purpose and should be a canvas to build further on.**_
+_** This is a further development README. Please be aware this is just here to document next stage which is "directory-choice" since i need to develop a choice for the user to choose directories to save files.**_
 
 a small project of coding a QR code generator mainly for personal uses.
 
