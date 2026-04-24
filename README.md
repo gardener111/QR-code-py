@@ -20,7 +20,7 @@ The first section is of course, what i want to give to the users, and the second
 - What i want to give you all?
 	- as previously stated, a free and open source QR Code generator
 	- for CLI enthusiasts, this tool but in a CLI format!
-	- for anyone else, either a WebTool or a .exe program to just run and generate a QR Code.
+	- for anyone else, either a .exe program to just run and generate a QR Code.
 
 - What i want to achieve?
 	- basically... learn, learn, learn!
