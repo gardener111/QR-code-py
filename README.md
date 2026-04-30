@@ -1,59 +1,71 @@
 # QR-code-py - Open Source QR Code Generator
 
-_**This is the main version that serves its purpose and should be a canvas to build further on.**_
+version 1.1
 
 a small project of coding a QR code generator mainly for personal uses.
 
-I just became somewhat frustrated with most of the web based QR Code generators to require payments in order to either extend the period of holding a QR code or generating more than one.
-Some of us need QR Codes everyday and the question is: why pay?
+*scroll down for the tutorial if you already know how to use python scripts in your terminal*
 
-May it be you work in the creative, marketing, retail, real-estate, IT or even administration related fields, you may need to create a QR Code from time to time. 
-Thats why i decided to make it my project.
-To make it accessible for all, no matter their profession or professional/educational occupation. Plain, simple, free and open-source QR Code generatior.
+If you got frustrated trying to create/generate a QR code for free on the internet and have been annoyed with login prompts or paywalls, and somehow ended up here... im glad!
+
+No matter what you do, a self generated QR code can come in handy. Especially if its not time-sensitive or doesn't require you to set up and accepts T&C's. By cloning this repo (or simply downloaded a nicely packed .exe in a .zip in the future...) you will be able to do that!
 
 
 ## Goals
 
-Goals for this project actually split into two sections.
-The first section is of course, what i want to give to the users, and the second one are personal goals i want to achieve by making this project.
+The goals for this project actually split into two sections.
+The first section is of course, what i want to give to you, the users, and the other is a personal goal i want to achieve by making this project.
 
 - What i want to give you all?
 	- as previously stated, a free and open source QR Code generator
 	- for CLI enthusiasts, this tool but in a CLI format!
 	- for anyone else, either a .exe program to just run and generate a QR Code.
 
-- What i want to achieve?
-	- basically... learn, learn, learn!
 
 ## Documentation
 
-While doing this project and by learning git, and markdown files, i will split the full documentation into separate chunks with screenshots, references and sources.
-This is yet to come as i have just now started to create this repo.
-**thats just a small note down for me personally**
+While doing this project and by learning git, and markdown files, i will split the full documentation into separate chunks with code snippets, screenshots, references and sources, which is available for any one who might be interested in the projects directory "Notes" or "Screenshots"
 
 # Tutorial
 
-To run this script on your local machine after cloning this repo, you need to create and activate a python3 virtual environment (venv).
+To run this script on your local machine after cloning this repo, you need to create and activate a python3 virtual environment (venv). You can follow this tutorial to do this!
 
-
+### Linux or macOS
 **Move to the projects directory and follow next steps!**
 
-Make sure you are in the projects directory and run these commands:
 
+*create a virtual environment*
 ```bash
 python3 -m venv .venv
 ```
-**creates a virtual environment**
 
-
+*activate the virtual environment*
 ```bash
 source .venv/bin/activate
 ```
-**activates the virtual environment**
 
-To **deactivate** the virtual environment run this command:
+### Windows(CMD/Powershell)
+**Move to the projects directory and follow next steps!**
+
+
+*create the virtual environment*
+```powershell
+python3 -m venv .venv
+```
+*activate the virtual environment (if using CMD)*
+```powershell
+.venv\Scripts\activate.bat
+```
+*activate the virtual environment or (if you are using PowerShell)*
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+*To **deactivate** the virtual environment run this command (works on all OS's):*
 
 ```bash
 deactivate
 ```
 
+I hope you have made use of my code! Feel free to clone it and customize it how ever you want!
