@@ -15,7 +15,6 @@ username = getpass.getuser()
 
 print ("\nHello, " + username + " and welcome to the QR Code Generator!\n")
 print (f"You are running this script on {os}.\n")
-print ("First you will need to specify the directory you would like to save the generated QR Code image in.\n")
 
 # get the users Home directory (unified over all OS's)
 home_dir = pathlib.Path.home()
@@ -38,33 +37,29 @@ dir_labels = {
 
 # directory choice input
 dir_choice = input(
-    "To simplify the process, choose a number from 1 to 4 to select the directory you want to save the image in:\n\n"
+    "Please choose a number from 1 to 4 to select the directory you want to save the QR code image in:\n\n"
     "1. Current working directory (default)\n"
     "2. Desktop\n"
     "3. Documents\n"
-    "4. Downloads\n"
+    "4. Downloads\n\n"
 )
 
 # confirm directory choice in path
 if dir_choice in dir:
     save_dir = dir[dir_choice]
-    print(f"You have chosen to save the image in {dir[dir_choice]}.\n")
+    print(f"\nYou have chosen to save the image in {dir[dir_choice]}.\n")
 else:    
     save_dir = pathlib.Path.cwd()
-    print("Invalid choice. The image will be saved in the current working directory by default.\n")
+    print("\nInvalid choice. The image will be saved in the current working directory by default.\n")
 
  # check if directory already exists and if not, create it
 pathlib.Path(save_dir).mkdir(parents=True, exist_ok=True)
-print (f"Input your desired URL (website link) to create a QR Code out of it. \nThe script will save it as a image file (.png or .jpg) in {save_dir}.\n")
 
 # input string variable for the URL
-url = input("Paste or Enter your URL: ")
-
-# prints out the users input
-print (f"This was your URL: \n\n{url}\n")
+url = input("Paste or Enter your URL here: ")
 
 # let the user specify the name of the image
-imgname = input("How would you like to call the generated image?: ")
+imgname = input("\nHow would you like to call the generated image?: ")
 print (f"Converting to a image with a QR code named:{imgname}...")
 
 # qr code generation module
