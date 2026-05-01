@@ -104,3 +104,5 @@ The end "product" looks like this:
 
 By default the script saves the file in the repo directory. In my opinion, my thoughts behind it were that i want the user to specify the directory to save the QR Code image.
 Whats may also be important is the size of the QR Code that will be generated. There is a qrcode variable to be set to determine this automatically which, in my understanding picks the size automatically.
+
+**done \\/**
