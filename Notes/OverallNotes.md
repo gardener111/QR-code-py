@@ -106,3 +106,5 @@ By default the script saves the file in the repo directory. In my opinion, my th
 Whats may also be important is the size of the QR Code that will be generated. There is a qrcode variable to be set to determine this automatically which, in my understanding picks the size automatically.
 
 **done \\/**
+
+*testing*
