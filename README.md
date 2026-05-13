@@ -64,6 +64,21 @@ python3 main.py
 
 ### Windows(CMD/Powershell)
 
+The process is pretty much the same, once you open your Windows Terminal/cmd/Powershell you will be in the 'home' directory by default, unless you specified it to launch differently. You can simply just do '*git clone*' as stated below or navigate to your Desktop directory so you can see what you clone and where it is easily. You can do so by running:
+
+**optional** *Move directory*
+```powershell
+cd '.\Desktop\'
+```
+
+and proceed with the command below. Otherwise if you know how to navigate files in command line, you may proceed with the command below without changing directories...
+
+*open your Windows Terminal and run:*
+```powershell
+git clone https://github.com/gardener111/QR-code-py.git
+```
+```
+
 *create the virtual environment*
 ```powershell
 python3 -m venv .venv
