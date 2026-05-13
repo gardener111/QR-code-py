@@ -28,11 +28,19 @@ While doing this project and by learning git, and markdown files, i will split t
 
 # Tutorial
 
-To run this script on your local machine after cloning this repo, you need to create and activate a python3 virtual environment (venv). You can follow this tutorial to do this!
+To run this script on your local machine after cloning this repo, you need to make a few steps in your terminal (aside the 'program' itself running in the terminal). You can follow this tutorial to do this!
 
 ### Linux or macOS
-**Move to the projects directory and follow next steps!**
 
+*Open your terminal and run:*
+```bash
+git clone https://github.com/gardener111/QR-code-py.git
+```
+
+*then navigate to the cloned repo:*
+```bash
+cd QR-code-py
+```
 
 *create a virtual environment*
 ```bash
@@ -44,22 +52,41 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### Windows(CMD/Powershell)
-**Move to the projects directory and follow next steps!**
+*install dependencies*
+```bash
+pip install -r requirements.txt
+```
 
+*run the script*
+```bash
+python3 main.py
+```
+
+### Windows(CMD/Powershell)
 
 *create the virtual environment*
 ```powershell
 python3 -m venv .venv
 ```
+
 *activate the virtual environment (if using CMD)*
 ```powershell
 .venv\Scripts\activate.bat
 ```
-*activate the virtual environment or (if you are using PowerShell)*
 
+*activate the virtual environment or (if you are using PowerShell)*
 ```powershell
 .venv\Scripts\Activate.ps1
+```
+
+*install dependencies*
+```bash
+pip install -r requirements.txt
+```
+
+*run the script*
+```bash
+python3 main.py
 ```
 
 *To **deactivate** the virtual environment run this command (works on all OS's):*
@@ -69,3 +96,7 @@ deactivate
 ```
 
 I hope you have made use of my code! Feel free to clone it and customize it how ever you want!
+
+Test the QR Code results!
+
+![qr-code](https://github.com/gardener111/QR-code-py/blob/main/see-if-it-works.png "Scan me to see if it works!")
