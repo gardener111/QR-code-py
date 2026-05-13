@@ -77,7 +77,6 @@ and proceed with the command below. Otherwise if you know how to navigate files 
 ```powershell
 git clone https://github.com/gardener111/QR-code-py.git
 ```
-```
 
 *create the virtual environment*
 ```powershell
